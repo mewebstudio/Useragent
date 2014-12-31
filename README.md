@@ -47,7 +47,7 @@ This example attempts to determine whether the user agent browsing your site is 
 ```
 if (Useragent::is_browser())
 {
-    $agent = Useragent::browser().' '.Agent::version();
+    $agent = Useragent::browser().' '. Useragent::version();
 }
 elseif (Useragent::is_robot())
 {
